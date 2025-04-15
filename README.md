@@ -5,7 +5,7 @@ This is a full-stack web application built using the MERN stack (MongoDB, Expres
 
 **How to run the project:**
 
-npm i (npm i is for installing all the node modules)
+npm i (For installing all the node modules)
 
 **Contributors:** 
 1. Pari Agrawal
