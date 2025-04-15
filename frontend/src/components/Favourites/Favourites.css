@@ -1,0 +1,100 @@
+.favourites_main {
+  display: flex;
+  width: 100%;
+  padding: 4rem;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.favourites_main > .head {
+  display: flex;
+  gap: 3rem;
+}
+
+.favourites_main > .head > h2 {
+  font-size: 3rem;
+  font-weight: 450;
+  color: rgba(0, 0, 0, 0.7);
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  text-decoration: underline;
+}
+
+.favourites_main > .favourites_list {
+  display: flex;
+  width: 100%;
+  min-height: 30rem;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.favourites_main > .favourites_list > .favCard {
+  display: flex;
+  height: 10rem;
+  width: 60rem;
+  border-radius: 20px;
+  background-color: #678ee4;
+  gap: 2rem;
+}
+
+.favourites_main > .favourites_list > .favCard > img {
+  height: 100%;
+  border-radius: 20px 0 0 20px;
+  width: 13rem;
+  object-fit: cover;
+}
+
+.favourites_main > .favourites_list > .favCard > .info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  justify-content: center;
+  width: 30rem;
+}
+
+.favourites_main > .favourites_list > .favCard > .info > p {
+  display: grid;
+  width: 90%;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.favourites_main > .favourites_list > .favCard > .btns {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.favourites_main > .favourites_list > .favCard > .btns > svg {
+  font-size: 4rem;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  padding: 0.4rem;
+  cursor: pointer;
+  border-radius: 50%;
+  color: white;
+}
+
+.favourites_main > .favourites_list > .favCard > .btns > .pause {
+  background-color: rgb(165, 165, 8);
+}
+
+.favourites_main > .favourites_list > .favCard > .btns > .play {
+  background-color: green;
+}
+
+.favourites_main > .favourites_list > .favCard > .btns > .del {
+  background-color: red;
+}
+
+.no-fav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 10rem;
+  color: red;
+  font-size: 4rem;
+}
